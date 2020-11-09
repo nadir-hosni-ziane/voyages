@@ -1,17 +1,23 @@
 @font-face {
     font-family: "Almost Japanese Comic";
-    src: url(Almost-Japanese-Comic.ttf);
+    src: url(polices-ttf/Almost-Japanese-Comic.ttf);
 }
 
 @font-face {
     font-family: "Almost Japanese Smooth";
-    src: url(Almost-Japanese-Smooth.ttf);
+    src: url(polices-ttf/Almost-Japanese-Smooth.ttf);
 }
+
+
+/*lien*/
 
 a {
     text-decoration: none;
     color: white;
 }
+
+
+/*animation*/
 
 .dezoom div img {
     width: 200px;
@@ -151,8 +157,11 @@ header h2 {
     padding: 5px;
 }
 
+
+/*main*/
+
 body {
-    background-image: url(tokyo.jpg);
+    background-image: url(images-voyages/tokyo.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -412,6 +421,9 @@ body {
     margin-bottom: 150px;
 }
 
+
+/*footer*/
+
 footer {
     background-color: black;
     width: 100%;
@@ -429,4 +441,53 @@ footer {
     margin-top: 30px;
     font-size: 50px;
     margin: 0 15px;
+}
+
+
+/*contact*/
+
+.head-tableau {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulaire {
+    opacity: 75%;
+    font-family: 'Pacifico', cursive;
+    width: 600px;
+    height: 655px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid white;
+    border-radius: 30px;
+    text-align: center;
+    background: black;
+    color: black;
+    font-size: 15px;
+    margin-left: 33%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.meme {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.meme1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    color: white;
+}
+
+.meme2 {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    color: white;
 }
